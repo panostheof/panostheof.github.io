@@ -171,14 +171,16 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000a21;
 }
 
 header.masthead hr {
-  margin-top: 270px;
+  margin-top: 18rem;
   margin-bottom: 30px;
 }
 
@@ -219,10 +221,12 @@ header.masthead p {
 
   background-image: url("../img/team.jpg");
   background-position: center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 .service-box {
