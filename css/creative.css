@@ -177,7 +177,7 @@ header.masthead {
   -o-background-size: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #000a21;
+  background-color: #161616;
 }
 
 header.masthead hr {
@@ -220,6 +220,7 @@ header.masthead p {
 
 .team {
 
+
   background-image: url("../img/team.jpg");
   background-position: center top;
   -webkit-background-size: 100%;
@@ -227,7 +228,7 @@ header.masthead p {
   -o-background-size: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #212529;
 }
 
 .service-box {
@@ -325,4 +326,8 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.footer {
+     background-color: #046868;
 }
