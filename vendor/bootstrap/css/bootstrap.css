@@ -2706,15 +2706,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-light {
-  color: #f8f9fa;
-  background-color: #155466;
-  border-color: #155466;
+  color: #fff;
+  background-color: #046868;
+  border-color: #046868;
 }
 
 .btn-light:hover {
-  color: #212529;
-  background-color: #e2e6ea;
-  border-color: #e2e6ea;
+  color: #0fbcbc;
+  background-color: #212529;
+  border-color: #212529;
 }
 
 .btn-light:focus, .btn-light.focus {
@@ -2740,15 +2740,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-dark {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+     color: white;
+     background-color: #e52020;
+     border-color: #e52020;
 }
 
 .btn-dark:hover {
-  color: #fff;
-  background-color: #23272b;
-  border-color: #1d2124;
+     color: #fff;
+     background-color: #931414;
+     border-color: #931414;
 }
 
 .btn-dark:focus, .btn-dark.focus {
@@ -7551,7 +7551,8 @@ button.bg-dark:focus {
 
 .mt-6,
 .my-6 {
-  margin-top: 14rem !important;
+  margin-top: 20vw;
+  margin-bottom: 1px !important;
 }
 
 

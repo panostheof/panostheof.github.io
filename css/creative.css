@@ -11,12 +11,26 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #cc441e;
+  border-color: #0fbcbc;
 }
 
 hr.light {
-  border-color: #fff;s
+  border-color: #212529;
 }
+
+hr.trans {
+  border-color: transparent;
+}
+
+hr.org {
+  border-color: #F05F40;
+}
+
+hr.red {
+  border-color: #e52020;
+}
+
+
 
 a {
   color: #F05F40;
@@ -88,6 +102,7 @@ img::-moz-selection {
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   transition: all 0.6s;
+
 }
 
 #mainNav .navbar-brand {
@@ -330,4 +345,56 @@ header.masthead p {
 
 .footer {
      background-color: #046868;
+}
+
+.bg-grey {
+     background-color: #212529;
+}
+
+.bg-contact {
+     background-image: url("../img/bg-contact.png");
+     background-position: center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-color: #212529;
+}
+
+.bg-f1 {
+     background-image: url("../img/comp.jpg");
+     background-position: center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-color: #212529;
+}
+.grey {
+     color: #212529;
+}
+
+.bg-blue {
+     background-color: #0fbcbc;
+}
+
+.blue {
+     color: #0fbcbc;
+}
+
+.white {
+     color: #fff;
+}
+
+.footer-contact{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 600;
+  padding-top: 20px;
+  text-align:center;
+}
+
+footer {
+  padding: 3rem 0;
 }
